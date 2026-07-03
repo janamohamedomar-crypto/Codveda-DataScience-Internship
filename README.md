@@ -73,7 +73,6 @@ Both Logistic Regression and Random Forest Classifier achieved perfect classific
 - GitHub
 
 ## Repository Contents
-- `Level2_Task1_Regression.ipynb`
-- `Level2_Task2_Classification.ipynb`
+
 - `Level2_Task1_Regression.ipynb`
 - `Level2_Task2_Classification.ipynb`
