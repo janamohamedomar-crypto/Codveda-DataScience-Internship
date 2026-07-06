@@ -74,5 +74,37 @@ Both Logistic Regression and Random Forest Classifier achieved perfect classific
 
 ## Repository Contents
 
+
+
+---
+
+### Level 3 – Task 3: Neural Network Classification
+
+**Dataset:** Customer Churn Dataset
+
+**Framework**
+- TensorFlow / Keras
+
+**Model Architecture**
+- Dense (32 neurons, ReLU)
+- Dense (16 neurons, ReLU)
+- Dense (1 neuron, Sigmoid)
+
+**Evaluation Metrics**
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+**Visualizations**
+- Training Accuracy
+- Validation Accuracy
+- Training Loss
+- Validation Loss
+
+**Conclusion**
+
+A neural network was successfully developed to predict customer churn. The model achieved strong classification performance and demonstrated effective learning during training.
 - `Level2_Task1_Regression.ipynb`
 - `Level2_Task2_Classification.ipynb`
