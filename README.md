@@ -1,12 +1,15 @@
 # Codveda Data Science Internship
 
-This repository contains my solutions for the Codveda Data Science Internship.
+This repository contains my solutions for the **Codveda Data Science Internship**. The projects demonstrate the implementation of machine learning and deep learning techniques using Python, Scikit-learn, and TensorFlow/Keras.
+
+---
 
 ## Completed Tasks
 
 ### Level 2 – Task 1: Predictive Modeling (Regression)
 
-**Dataset:** Boston Housing Dataset
+**Dataset**
+- Boston Housing Dataset
 
 **Models Used**
 - Linear Regression
@@ -18,23 +21,24 @@ This repository contains my solutions for the Codveda Data Science Internship.
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-**Results**
+#### Results
 
 | Model | MSE | RMSE | R² Score |
-|--------|-----|------|----------|
+|-------|----:|-----:|---------:|
 | Linear Regression | 19.379 | 4.402 | 0.6522 |
-| Decision Tree | 20.857 | 4.567 | 0.6257 |
-| Random Forest | 7.579 | 2.753 | 0.8640 |
+| Decision Tree Regressor | 20.857 | 4.567 | 0.6257 |
+| Random Forest Regressor | 7.579 | 2.753 | 0.8640 |
 
 **Conclusion**
 
-The Random Forest Regressor achieved the best performance with the highest R² score and the lowest prediction error.
+The Random Forest Regressor achieved the best performance, producing the lowest prediction error and the highest R² score.
 
 ---
 
 ### Level 2 – Task 2: Classification
 
-**Dataset:** Iris Dataset
+**Dataset**
+- Iris Dataset
 
 **Models Used**
 - Logistic Regression
@@ -48,39 +52,23 @@ The Random Forest Regressor achieved the best performance with the highest R² s
 - Confusion Matrix
 - ROC Curve
 
-**Results**
+#### Results
 
 | Model | Accuracy | Precision | Recall | F1 Score |
-|--------|----------|-----------|--------|----------|
+|-------|---------:|----------:|-------:|---------:|
 | Logistic Regression | 1.000 | 1.000 | 1.000 | 1.000 |
-| Random Forest | 1.000 | 1.000 | 1.000 | 1.000 |
+| Random Forest Classifier | 1.000 | 1.000 | 1.000 | 1.000 |
 
 **Conclusion**
 
-Both Logistic Regression and Random Forest Classifier achieved perfect classification performance on the Iris dataset, demonstrating excellent predictive capability for this problem.
-
----
-
-## Technologies Used
-
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- GitHub
-
-## Repository Contents
-
-
+Both models achieved perfect classification performance on the Iris dataset, demonstrating excellent predictive capability.
 
 ---
 
 ### Level 3 – Task 3: Neural Network Classification
 
-**Dataset:** Customer Churn Dataset
+**Dataset**
+- Customer Churn Dataset
 
 **Framework**
 - TensorFlow / Keras
@@ -105,6 +93,35 @@ Both Logistic Regression and Random Forest Classifier achieved perfect classific
 
 **Conclusion**
 
-A neural network was successfully developed to predict customer churn. The model achieved strong classification performance and demonstrated effective learning during training.
+A neural network was developed to predict customer churn using TensorFlow/Keras. The model achieved strong predictive performance while maintaining good generalization on the validation data.
+
+---
+
+## Technologies Used
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow / Keras
+- Git & GitHub
+
+---
+
+## Repository Contents
+
 - `Level2_Task1_Regression.ipynb`
 - `Level2_Task2_Classification.ipynb`
+- `Level3_Task3_Neural_Network_Classification.ipynb`
+
+---
+
+## Author
+
+**Jana Mohamed Omar El Khattab**
+
+Computer & AI Engineering Student  
+Ain Shams University
