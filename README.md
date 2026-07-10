@@ -1,12 +1,12 @@
 # Codveda Data Science Internship
 
-This repository contains my solutions for the **Codveda Data Science Internship**. The projects demonstrate the implementation of machine learning and deep learning techniques using Python, Scikit-learn, and TensorFlow/Keras.
+This repository contains my solutions for the **Codveda Data Science Internship**. The projects demonstrate the application of machine learning, natural language processing, and deep learning techniques using Python, Scikit-learn, and TensorFlow/Keras.
 
 ---
 
-## Completed Tasks
+# Completed Tasks
 
-### Level 2 – Task 1: Predictive Modeling (Regression)
+## Level 2 – Task 1: Predictive Modeling (Regression)
 
 **Dataset**
 - Boston Housing Dataset
@@ -21,7 +21,7 @@ This repository contains my solutions for the **Codveda Data Science Internship*
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-#### Results
+### Results
 
 | Model | MSE | RMSE | R² Score |
 |-------|----:|-----:|---------:|
@@ -35,7 +35,7 @@ The Random Forest Regressor achieved the best performance, producing the lowest 
 
 ---
 
-### Level 2 – Task 2: Classification
+## Level 2 – Task 2: Classification
 
 **Dataset**
 - Iris Dataset
@@ -52,7 +52,7 @@ The Random Forest Regressor achieved the best performance, producing the lowest 
 - Confusion Matrix
 - ROC Curve
 
-#### Results
+### Results
 
 | Model | Accuracy | Precision | Recall | F1 Score |
 |-------|---------:|----------:|-------:|---------:|
@@ -65,7 +65,36 @@ Both models achieved perfect classification performance on the Iris dataset, dem
 
 ---
 
-### Level 3 – Task 3: Neural Network Classification
+## Level 3 – Task 2: Natural Language Processing (Sentiment Analysis)
+
+**Dataset**
+- Sentiment Dataset
+
+**Techniques**
+- Text preprocessing
+- Stopword removal
+- Stemming
+- TF-IDF Vectorization
+
+**Models Used**
+- Logistic Regression
+- Naive Bayes
+
+**Evaluation Metrics**
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Classification Report
+- Confusion Matrix
+
+**Conclusion**
+
+A complete NLP pipeline was implemented for sentiment analysis. The text data was preprocessed using lowercase conversion, punctuation removal, stopword removal, and stemming before applying TF-IDF vectorization. Logistic Regression and Naive Bayes models were trained and evaluated using standard classification metrics to compare their performance.
+
+---
+
+## Level 3 – Task 3: Neural Network Classification
 
 **Dataset**
 - Customer Churn Dataset
@@ -93,11 +122,11 @@ Both models achieved perfect classification performance on the Iris dataset, dem
 
 **Conclusion**
 
-A neural network was developed to predict customer churn using TensorFlow/Keras. The model achieved strong predictive performance while maintaining good generalization on the validation data.
+A neural network was developed to predict customer churn using TensorFlow/Keras. The model achieved strong predictive performance while maintaining good generalization on the validation dataset.
 
 ---
 
-## Technologies Used
+# Technologies Used
 
 - Python
 - Google Colab
@@ -107,21 +136,24 @@ A neural network was developed to predict customer churn using TensorFlow/Keras.
 - Seaborn
 - Scikit-learn
 - TensorFlow / Keras
-- Git & GitHub
+- NLTK
+- Git
+- GitHub
 
 ---
 
-## Repository Contents
+# Repository Contents
 
 - `Level2_Task1_Regression.ipynb`
 - `Level2_Task2_Classification.ipynb`
+- `Level3_Task2_NLP_Sentiment_Analysis.ipynb`
 - `Level3_Task3_Neural_Network_Classification.ipynb`
 
 ---
 
-## Author
+# Author
 
 **Jana Mohamed Omar El Khattab**
 
 Computer & AI Engineering Student  
-Ain Shams University
+Faculty of Engineering, Ain Shams University
